@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/user.css">
+	<link rel="stylesheet" type="text/css" href="css/admin.css">
+    
+    <link rel="icon" type="png" href="images/favicon-32x32.png">
+</head>
+<body>
+    <div class="navbar">
+         <a href="admin.html">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn">Settings
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="Userview">User</a>
+            <a href="flateview">Flats</a>
+            <a href=dhcview>Daily Help Category</a>
+            <a href="rateview">Gas Unit Rate</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Owners
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="ownerview">Owner</a>
+              <a href="ownershipview">Ownership</a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn">Tenants
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="tenantview">Tenant</a>
+              <a href="rentalview">Rental</a>
+            </div>
+          </div>
+
+          <a href="facilityview">Facility Manager</a>
+          <a href="helpview">Daily Help</a>
+
+          <div class="dropdown">
+            <button class="dropbtn">Society Dues
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="usageview">Monthly Gas Usage</a>
+              <a href="#">Payment</a>
+            </div>
+          </div>
+          <a href="#" class="split">Logout</a>
+      </div>
+      
+       <form action="ownership" method="post">
+    <div class="div-2">
+            <h4>Payment </h4>
+            
+            	flate:
+                <select name="flate">
+                <option >select flate</option>
+                </select><br>
+                category:
+                <select name="category">
+                <option >select category</option>
+                </select><br>
+                
+               date<input type="date" name="date"><br>
+              total<input type="number" name=total><br> 
+               payable amount<input type="number" name="amount"><br>
+               <input type="button" name="button" value="check dues">
+               <input type="button" name="submit" value="pay">
+           
+        </div>
+        
+   
+
+   </form>
+</body>
+</html>

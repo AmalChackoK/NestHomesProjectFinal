@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/owner.css">
+     <link rel="stylesheet" href="css/admin.css">
+    <link rel="icon" type="png" href="images/favicon-32x32.png">
+</head>
+<body>
+   
+    <div class="navbar">
+        
+        <div class="dropdown">
+          <button class="dropbtn">Settings
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">User</a>
+            <a href="#">Flats</a>
+            <a href="dailyhelpcategory.html">Daily Help Category</a>
+            <a href="gas unit rate.html">Gas Unit Rate</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Owners
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="owner.html">Owner</a>
+              <a href="ownershipview">Ownership</a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn">Tenants
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="tenants.html">Tenant</a>
+              <a href="#">Rental</a>
+            </div>
+          </div>
+
+          <a href="#">Facility Manager</a>
+          <a href="#">Daily Help</a>
+
+          <div class="dropdown">
+            <button class="dropbtn">Society Dues
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Monthly Gas Usage</a>
+              <a href="#">Payment</a>
+            </div>
+          </div>
+          <a href="#" class="split">Logout</a>
+      </div>
+      <form action="ownership" method="post">
+    <div class="div-3">
+            <h4>Ownership</h4>
+            
+                Owner:
+                <select name="owner">
+                <option >select owner</option>
+                </select><br>
+                
+                Flat    :
+                <select name="flat" >
+                <option >select flat</option>
+                </select>
+                
+            <input type="submit" id="gasratebutten" value="save"/>
+        </div>
+        
+   
+
+   </form>
+   
+    
+</body>
+</html>

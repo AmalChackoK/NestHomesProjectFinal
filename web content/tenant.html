@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./css/owner.css">
+    <link rel="icon" type="png" href="images/favicon-32x32.png">
+</head>
+<body>
+   
+    <div class="navbar">
+        
+        <div class="dropdown">
+          <button class="dropbtn">Settings
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">User</a>
+            <a href="#">Flats</a>
+            <a href="dailyhelpcategory.html">Daily Help Category</a>
+            <a href="gas unit rate.html">Gas Unit Rate</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Owners
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="owner.html">Owner</a>
+              <a href="ownership.html">Ownership</a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn">Tenants
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="tenants.html">Tenant</a>
+              <a href="#">Rental</a>
+            </div>
+          </div>
+
+          <a href="#">Facility Manager</a>
+          <a href="#">Daily Help</a>
+
+          <div class="dropdown">
+            <button class="dropbtn">Society Dues
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Monthly Gas Usage</a>
+              <a href="#">Payment</a>
+            </div>
+          </div>
+          <a href="#" class="split">Logout</a>
+      </div>
+      <form action="owner" method="get">
+    <div class="div-2">
+       <h2>Tenant Details</h2> <hr>
+        name<br><input type="text" name="name"><br>
+        Address<br><textarea  name="address" rows="4" cols="50"/></textarea><br>
+        contact<br><input type="text" name ="phone"  pattern="{10}[0-9]"/><br>
+        <input type="button" value="login" id="ownerbutten">
+    </div>
+
+   </form>
+   
+    
+</body>
+</html>
